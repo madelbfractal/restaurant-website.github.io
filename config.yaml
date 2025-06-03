@@ -1,0 +1,28 @@
+title: "Restaurant Name"
+description: "Delicious food served fresh every day."
+baseurl: "" # Leave empty for root, or use "/repo-name" if in subdirectory
+url: "https://mandelbfractal.github.io"
+
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+highlighter: rouge
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Optional: social links
+social_links:
+  twitter: yourhandle
+  github: mandelbfractal
+  instagram: yourhandle
+
+# Build settings for GitHub Pages
+github:
+  is_project_page: true
